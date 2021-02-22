@@ -3,13 +3,13 @@ const printApp = () => {
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav w-100 d-flex">
       <li class="nav-item">
-        <a class="nav-link" href="#">The River</a>
+        <a class="nav-link" href="#riverLink">The River</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Add Bear</a>
+        <a class="nav-link" href="#bearFormLink">Add Bear</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Awards</a>
+        <a class="nav-link" href="#awardsLink">Awards</a>
       </li>
     </ul>
   </div>
@@ -26,15 +26,15 @@ const printApp = () => {
       <li class="fuzzy">Turns out... they were just <strong>hungry</strong>.</li>
     </ul>
   </div>
-  <div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title">The River</h3></div>
+  <div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title" id="riverLink">The River</h3></div>
   <!-- Dynamically added bear cards go here -->
 <div class="bear-river d-flex justify-content-center flex-wrap" id="bearRiver"></div>
 <!-- Dynamically added form goes here -->
-<h4 class="new-bear-form-title text-center">Have you spotted a bear recently?</h4>
+<h4 class="new-bear-form-title text-center" id="bearFormLink">Have you spotted a bear recently?</h4>
 <hr>
 <h5 class="new-bear-form-title text-center" id="errorBox"></h5>
-<div class="form-container w-50 mx-auto" id="bearForm"></div>
-<div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title">Fattest Bear Awards</h3></div>
+<div class="form-container w-100 mx-auto" id="bearForm"></div>
+<div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title" id="awardsLink">Fattest Bear Awards</h3></div>
 <div class="awards-container d-flex flex-wrap justify-content-center w-50 ml-auto mr-auto" id="awardsContainer"></div>`;
 };
 

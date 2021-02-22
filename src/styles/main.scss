@@ -1,6 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: antiquewhite;
 }
@@ -9,14 +12,15 @@ body {
  margin-bottom: 100px;
 }
 .navbar-nav {
+  z-index: 1;
   top: 0;
-  background-color: antiquewhite;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
   padding: 0px;
-  position: sticky;
+  position: fixed;
   width: 100%;
   height: 42px;
   margin-left: auto;
@@ -69,7 +73,7 @@ h3 {
   height: 40%;
 }
 .header-container {
-  margin-top: 50px;
+  margin-top: 200px;
 }
  .first {
   width: 100%;
@@ -94,4 +98,34 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+form {
+  height: 75vh;
+  width: 100%;
+  background-image: url('../assets/bearexample.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-control {
+  width: 50%;
+  margin: 0px auto;
+  
+}
+.form-group {
+  label {
+    color: black;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+  }
+}
+.btn-container {
+  width: 100%;
+}
+.submit-btn {
+  width: 20%;
+  margin: 50px 40%;
 }
