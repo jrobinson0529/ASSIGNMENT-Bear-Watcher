@@ -39,7 +39,7 @@ const bearFormInput = (e) => {
   awardedBearPrinter(bears);
   form.reset();
   // eslint-disable-next-line no-undef
-  const audioObj = new Audio('src/assets/bearroar.m4a');
+  const audioObj = new Audio('./src/assets/bearroar.m4a');
   audioObj.play();
 };
 
