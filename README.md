@@ -32,13 +32,13 @@ https://github.com/jrobinson0529/ASSIGNMENT-Bear-Watcher/projects/1
 ### Screenshots
 
 ##### Landing section
-![](src\assets\screenshot-landing.png)
+![](./src/assets/screenshot-landing.png)
 ##### The River
-![](src\assets\screenshot-river.jpg)
+![](./src/assets/screenshot-river.jpg)
 ##### The Form
-![](src\assets\screenshot-form.jpg)
+![](./src/assets/screenshot-form.jpg)
 ##### The Awards
-![](src\assets\screenshot-awardsfull.png)
+![](./src/assets/screenshot-awardsfull.png)
 
 ### Loom Video
 
