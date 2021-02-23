@@ -1,5 +1,6 @@
 const printApp = () => {
-  document.querySelector('#app').innerHTML = `<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  document.querySelector('#app').innerHTML = `
+  <div class="page-top-wrapper"><nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav w-100 d-flex">
       <li class="nav-item">
@@ -27,13 +28,14 @@ const printApp = () => {
     </ul>
   </div>
   <div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title" id="riverLink">The River</h3></div>
+  </div>
   <!-- Dynamically added bear cards go here -->
 <div class="bear-river d-flex justify-content-center flex-wrap" id="bearRiver"></div>
 <!-- Dynamically added form goes here -->
 <h4 class="new-bear-form-title text-center" id="bearFormLink">Have you spotted a bear recently?</h4>
 <hr>
 <h5 class="new-bear-form-title text-center" id="errorBox"></h5>
-<div class="form-container w-100 mx-auto" id="bearForm"></div>
+<div class="form-container mx-auto" id="bearForm"></div>
 <div class="header-container w-100 d-flex justify-content-center"><h3 class="w-100 text-center river-title" id="awardsLink">Fattest Bear Awards</h3></div>
 <div class="awards-container d-flex flex-wrap justify-content-center w-50 ml-auto mr-auto" id="awardsContainer"></div>`;
 };
